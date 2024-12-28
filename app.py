@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Allow all origins by default
 
 # Configure the API key directly
-genai.configure(api_key="")
+genai.configure(api_key="AIzaSyAUrtj6xSt9rk9KFnYfGLE7ZXyTefV9LyM")
 
 # Initialize the model
 model = genai.GenerativeModel('gemini-1.5-flash', generation_config={"response_mime_type": "application/json"})
